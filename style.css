@@ -131,12 +131,33 @@ img{
     display: inline-block;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 900px) {
     img{
         width: 0;
     }
+
     #qr{
         transform: none;
         display: block;
+    }
+    .wrapper{
+        max-width: 350px;
+    }
+
+    .calc-button{
+        flex-basis: 22%;
+        font-size: 25px;
+        height: 65px;
+    }
+    .double{
+        flex-basis: 47%;
+    }
+    .triple{
+        flex-basis: 73%;
+    }
+    #res{
+        margin-top: 15px;
+        width: 280px;
+        min-height:80px;
     }
 }
